@@ -4,7 +4,9 @@ Sample Readme (delete the above when you're ready to submit, and modify the belo
 ## Car Model Manager
 The project is an expansion of the example dictionary provided at the start. It logs car models, release year, mpg, and the derived price of the car. I used flexbox to position the CSS. Enter whatever information you want for the model, year, and mpg and then click the submit button. If you enter a non-number into the year or mpg, it will become null, and the price will not be calculated.
 
-render link:
+Render link: https://a2-ethancarter-a25.onrender.com
+
+Render is using the free web service option which has a warning that it will spin down due to inactivity. If the link does not work, please email me. I'm pretty sure the Professor said to use a web service instead of a static site.
 
 ## Technical Achievements
 - **Tech Achievement 1**: I made a function that displays data based on a JSON input. It takes the data and puts it into a table tag that's organized based on the dictionary saved on the server side. Whenever the client makes a /submit, /modify, /delete, or /data request (a mix of POST and GET requests), the server sends a JSON of the appdata dictionary to the client that then calls displayData().
