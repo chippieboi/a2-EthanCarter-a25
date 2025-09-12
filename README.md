@@ -24,3 +24,7 @@ Last Name: Zhou
 Problems: It took a second to find the area to add entries.
 Comments: They really didn't like the base entry of Ford. They got surprised when the edit button let them edit every entry instead of just one.
 Changes: Rename 'submit' button to 'add entry'.
+
+
+### AI Usage:
+I used two AIs, ChatGPT and Gemini. I used Gemini when googling questions about CSS/HTML/JavaScript functions and how to implement them. Gemini usage mainly happened because of the AI overview that pops up at the top of Google. ChatGPT usage was more for debugging and the "improvements" it mentioned as part of the debugging process. The debugging was mainly focused on 404 errors that kept popping up in my POST requests when I added them (ended up being the event.preventDefault() call for the requests because they were in my <form> tag), but there were some other debugging questions I asked for as well. I also used some AI for explanations on how some parts of JavaScript work under the hood, and an initial explanation tracing through the code provided at the start of the project.
